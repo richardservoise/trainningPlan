@@ -43,3 +43,13 @@ Ultra : 1 000 km / 12 000 D+ / 96 h, date provisoire 15 septembre 2027.
 Renforcement : lundi, mercredi, vendredi hors récupération et affûtage.
 Décembre–janvier : PMA sur home trainer le mardi, jeudi facile et dimanche dehors.
 Les valeurs initiales du plan sont incluses dans le code public du site.
+
+MISE À JOUR PMA ET FERMETURE
+Progression du mardi : 1 décembre 2×10×30/30 (10 min d’effort),
+8 décembre 3×10×30/30 (15 min), 15 décembre 3×12×30/30 (18 min).
+22 décembre facile. Puis 29 décembre 4×3 min, 5 janvier 5×3 min,
+12 janvier 4×4 min, 19 janvier facile, 26 janvier 5×4 min.
+Séances de 60 min sauf 15 décembre : 65 min.
+La croix X dans la barre supérieure reste visible en faisant défiler la séance.
+Elle ferme le détail sans modifier la validation ni les notes enregistrées.
+Pour enregistrer les notes saisies, utiliser d’abord le bouton de validation.

@@ -1,0 +1,45 @@
+ENDURANCE 2027 — PUBLICATION SUR GITHUB PAGES
+
+CONTENU
+index.html : l’application complète, avec ses styles et son code intégrés.
+Aucune installation, compilation, connexion ChatGPT ou clé API requise.
+
+DÉPLOIEMENT SIMPLE (remplace les anciennes instructions GitHub Actions)
+1. Décompresser cette archive sur l’ordinateur.
+2. Ouvrir le dépôt GitHub prévu pour l’application d’entraînement.
+3. Add file → Upload files : déposer le fichier index.html directement à la
+   racine du dépôt, puis Commit changes sur la branche main.
+   Ne pas déposer le ZIP ni son dossier parent à la place du fichier.
+4. Settings → Pages :
+   Source : Deploy from a branch
+   Branch : main
+   Folder : / (root)
+   Cliquer Save.
+5. Quand GitHub affiche que le site est publié, ouvrir le lien fourni dans Pages.
+   Le résultat de publication est visible dans Actions (pages build and deployment).
+
+MISE À JOUR D’UN ANCIEN DÉPÔT
+Ajouter/remplacer index.html à la racine et passer Pages sur Deploy from a branch,
+main, / (root). L’ancien dossier dist n’est plus utilisé pour ce mode.
+Si vous aviez installé .github/workflows/pages.yml avec l’ancien ZIP, supprimer
+uniquement ce workflow personnalisé devenu inutile ; GitHub gère la publication
+par branche. Les tests de développement ont été réalisés avant cette livraison.
+
+VÉRIFIER AVANT LA PUBLICATION
+Double-cliquer index.html pour ouvrir l’app. Pour un suivi durable, utiliser le
+site HTTPS GitHub Pages : le stockage sur une page file:// peut varier selon le
+navigateur. La consultation du plan et l’ouverture des séances fonctionnent sans
+serveur. Le plan démarre le 9 novembre 2026 : cliquer « Voir la première semaine ».
+
+CONSERVATION DES DONNÉES
+Les paramètres, notes et validations restent dans le navigateur. Dans Réglages,
+exporter une sauvegarde depuis l’ancien site et la restaurer sur le nouveau.
+Pas de synchronisation entre appareils, pas de transfert automatique vers Garmin.
+Les exports vélo .zwo sont fournis pour les plateformes compatibles.
+
+PLAN INCLUS
+Half des Lacs : 6 juin 2027, objectif 5 h.
+Ultra : 1 000 km / 12 000 D+ / 96 h, date provisoire 15 septembre 2027.
+Renforcement : lundi, mercredi, vendredi hors récupération et affûtage.
+Décembre–janvier : PMA sur home trainer le mardi, jeudi facile et dimanche dehors.
+Les valeurs initiales du plan sont incluses dans le code public du site.
